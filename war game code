@@ -75,17 +75,16 @@ def Scenario1():
         print('Lodi Wins')
     else:
         print("That's a tie!")
-    action3 = 'n'
-    while action3 == 'y' or action3 == 'n':
-        action3 = input("press 'y' to end game or 'n' to change scenario :")
-        if action3 == 'y':
-            action3 = 0
+    action1 = 'n'
+    while action1 == 'y' or action1 == 'n':
+        action1 = input("press 'y' to end game or 'n' to change scenario :")
+        if action1 == 'y':
+            action1 = 0
             return -1
-        elif action3 == 'n':
-            action3 = 0
+        elif action1 == 'n':
+            action1 = 0
         else:
             print('Enter a Valid Choice')
-            action == 'n'
 
 
 def Scenario2():
@@ -136,17 +135,16 @@ def Scenario2():
         print('Russia Wins')
     else:
         print("That's a tie!")
-    action3 = 'n'
-    while action3 == 'y' or action3 == 'n':
-        action3 = input("press 'y' to end game or 'n' to change scenario :")
-        if action3 == 'y':
-            action3 = 0
+    action2 = 'n'
+    while action2 == 'y' or action2 == 'n':
+        action2 = input("press 'y' to end game or 'n' to change scenario :")
+        if action2 == 'y':
+            action2 = 0
             return -1
-        elif action3 == 'n':
-            action3 = 0
+        elif action2 == 'n':
+            action2 = 0
         else:
             print('Enter a Valid Choice')
-            action == 'n'
 
 
 def Scenario3():
@@ -207,7 +205,6 @@ def Scenario3():
             action3 = 0
         else:
             print('Enter a Valid Choice')
-            action == 'n'
 
 
 main()
